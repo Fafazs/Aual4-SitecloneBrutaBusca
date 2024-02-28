@@ -1,0 +1,62 @@
+body{
+    background-color: beige;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 8px;
+}
+header{
+    height: 20vh;
+    border: 3px solid black;
+    display:flex;
+    padding: 15px 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+main{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    min-height: 80vh;
+    border: 3px solid black;
+    margin-top: 2%;
+}
+h1{
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+}
+#login{
+    border: 3px solid black;
+    padding: 10px 20px;background-color: beige;
+}
+
+#search{
+   border: 3px solid black;
+    padding: 10px 20px;  
+    background-color: beige;
+}
+
+
+#inputM{
+    border: 3px solid black;
+    padding: 10px 200px;
+    margin-left: 15px ;
+    background-color: beige;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
